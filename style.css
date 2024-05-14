@@ -1,0 +1,4236 @@
+@media only screen and (min-width: 1201px){
+body{
+  padding: 0 50px ;
+}
+.navbar{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+  background-color: rgba(0, 0, 0, 0.0) !important;
+  border-color: rgba(0, 0, 0, 0.0) !important;
+}
+	.menuLogo{
+		font-size: 25px;
+	}
+    .menuLogo:hover{
+      color: orange;
+    }
+.sectionOne{
+  border: 1px hidden;
+/*  height: 500px;*/
+  background-image:url(PhotoOne.jpg);
+  background-size: 100% ;
+  background-repeat: no-repeat;
+}
+  .forText{
+    border: 1px hidden;
+    height: 500px;
+    padding: 0 100px !important;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+    .forText h1{
+      font-size: 45px;
+      color: orange;
+    }
+    .forText h4{
+      font-size: 35px;
+      color: white;
+    }
+    .forText h2, p{
+      color: white;
+    }
+  .forYear{
+    border: 1px hidden;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 80px 50px !important;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+    .forYear h1{
+      font-size: 90px;
+      color: white;
+
+    }
+  .forSeasonSale{
+    border: 1px hidden;
+    height: 250px;
+    position: relative;
+    background-color: white;
+  }
+    .forSale{
+      border: 1px hidden;
+      width: 500px;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      background-color: white;
+      bottom: 100px;
+      left: 30%;
+      box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+    }
+      .forSale button{
+        border: 1px solid;
+        width: 150px;
+        height: 40px;
+        border-radius: 8px;
+        background-color: orange;
+        color: white;
+      }
+.sectionForLogos{
+  border: 1px hidden;
+  height: 200px;
+}
+  .forLogos{
+    border: 1px hidden;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+  }
+    .Logo{
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+    }
+      .Logo:hover{
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+      }
+.sectionTwo{
+  border: 1px hidden;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+  .forSales{
+    border: 1px hidden;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 200px !important ;
+  }
+    .saleThingOne{
+      border: 1px hidden;
+      width: 300px;
+      height: 300px;
+      background-image:url(PhotoTwo.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSale{
+        border: 1px hidden;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+      }
+        .textSale h4, p{
+        color: white;
+        }
+          .saleThingOne:hover .textSale{
+            opacity: 1;
+          }
+    .saleThingTwo{
+      border: 1px hidden;
+      width: 300px;
+      height: 300px;
+      background-image: url(PhotoThree.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSaleTwo{
+        border: 1px hidden;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color: rgba(0, 0, 0, 0.5);  
+        opacity: 0;
+      }
+        .textSaleTwo h4, p{
+          color: white;
+        }
+          .saleThingTwo:hover .textSaleTwo{
+            opacity: 1;
+          }
+  .forSalesRowTwo{
+    border: 1px hidden;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 0 200px !important;
+  }
+    .saleThingThree{
+      border: 1px hidden;
+      width: 300px;
+      height: 300px;
+      background-image: url(PhotoFour.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSaleThree{
+        border: 1px hidden;
+        width: 300px;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        opacity: 0;
+      }
+        .textSaleThree h4,p{
+          color: white;
+        }
+        .saleThingThree:hover .textSaleThree{
+          opacity: 1;
+        }
+    .saleThingFour{
+      border: 1px hidden;
+      width: 300px;
+      height: 300px;
+      background-image: url(PhotoFive.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSaleFour{
+        border: 1px hidden;
+        width: 300px;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        opacity: 0;
+      }
+        .textSaleFour h4, p{
+          color: white;
+        }
+        .saleThingFour:hover .textSaleFour{
+          opacity: 1;
+        }
+.sectionThree{
+  border: 1px hidden;
+  height: 400px;
+}
+  .forTextTwo{
+    border: 1px hidden;
+    height: 200px;
+    background-color: #EEE01C;
+    margin-top: 100px;
+    padding: 30px 200px !important;
+  }
+    .forTextTwo h1{
+      font-size: 50px;
+    }
+.sectionFour{
+  border: 1px hidden;
+  height: 900px;
+}
+  .forShop{
+    border: 1px hidden;
+    height: 800px;
+    display: flex;
+  }
+    .forShopRowOne{
+      border: 1px hidden;
+      width: 50%;
+      height: 800px;
+    } 
+      .forShopRowOneDivOne{
+        border: 1px hidden;
+        width: 100%;
+        height: 400px;
+        background-image: url(PhotoSix.jpeg);
+        background-size:100% ;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+        .forTextShopPhoto{
+          border: 1px hidden;
+          width: 400px;
+          height: 250px;
+          background-color: rgba(255, 255, 255, 0.7);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          justify-content: space-evenly;
+          padding: 30px 40px;
+          box-sizing: border-box;
+          box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+        }
+          .forTextShopPhoto button{
+            border: 1px hidden;
+            width: 150px;
+            height: 40px;
+            background-color: #EEE01C;
+          }
+      .forShopRowOnwDivTwo{
+        border: 1px hidden;
+        width: 100%;
+        height: 400px;
+        display: flex;
+      }
+        .forSellOne{
+          border: 1px hidden;
+          width: 50%;
+          height: 400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: center;
+        }
+          .forSellOne img{
+            width: 200px;
+            height: 240px;
+          }
+          .forSellTwo{
+            border: 1px hidden;
+            width: 50%;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+          }
+            .forSellTwo img{
+              width: 200px;
+              height: 240px;
+            }
+      .forShopRowTwo{
+        border: 1px hidden;
+        width: 50%;
+        height: 800px;
+      }
+        .forShopRowTwoDivOne{
+          border: 1px hidden;
+          width: 100%;
+          height: 350px;
+          display: flex;
+        }
+          .forSellThree{
+            border: 1px hidden;
+            width: 50%;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+            .forSellThree img{
+              width: 200px;
+              height: 240px;
+            }
+          .forSellFour{
+            border: 1px hidden;
+            width: 50%;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+            .forSellFour img{
+              width: 190px;
+              height: 240px;
+            }
+        .forShopRowTwoDivTwo{
+          border: 1px hidden;
+          width: 100%;
+          height: 450px;
+          background-image: url(PhotoEleven.jpeg);
+          background-size: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+          .forTextShopPhotoTwo{
+            border: 1px hidden;
+            width: 400px;
+            height: 250px;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+          }
+            .forTextShopPhotoTwo button{
+              border: 1px hidden;
+              width: 150px;
+              height: 40px;
+              background-color:#EEE01C ;
+            }
+.sectionFive{
+  border: 1px hidden;
+  height: 500px;
+  background-image: url(PhotoTuelf.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% ;
+}
+  .forTextMenStyle{
+    border: 1px hidden;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.2);    
+  }
+    .forTextMenStyle h4{
+      font-size: 30px;
+      color: white;
+    }
+    .forTextMenStyle h1{
+      font-size: 50px;
+      color: orange;
+    }
+    .forTextMenStyle h2,p{
+      color: white;
+    }
+  .forMenStyleYear{
+    border: 1px hidden;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 50px 50px !important;
+  }
+    .forMenStyleYear h1{
+      font-size: 90px;
+      color: white;
+    }
+.sectionSix{
+  border: 1px hidden;
+/*  height: 1000px;*/
+  padding: 50px 0 !important;
+}
+  .forFashion{
+    border: 1px hidden;
+/*    height: 1000px;*/
+display: flex;
+  }
+    .fashionRowOne{
+      border: 1px hidden;
+      width: 50%;
+/*      height: 1000px;*/
+    }
+      .fashionRowOneDivOne{
+        border: 1px hidden;
+        width: 100%;
+        height: 500px;
+        background-image: url(PhotoTrteen.jpeg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+          .fashionist{
+            border: 1px hidden;
+            width: 430px;
+            height: 270px;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+          }
+            .fashionist button{
+              border: 1px hidden;
+              width: 150px;
+              height: 40px;
+              background-color: #EEE01C;
+            }
+        .fashionRowTwo{
+          border: 1px hidden;
+          width: 100%;
+          height: 500px;
+          display: flex;
+        }
+          .fashionRowTwoDivOne{
+            border: 1px hidden;
+            width: 50%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+            .fashionRowTwoDivOne img{
+              width: 240px;
+            }
+          .fashionRowTwoDivTwo{
+            border: 1px hidden;
+            width: 50%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+            .fashionRowTwoDivTwo img{
+              width: 200px;
+            }
+        .finalSeason{
+          border: 1px hidden;
+          width: 50%;
+          height: 1000px;
+        }
+          .finalSeasonRowOne{
+            border: 1px hidden;
+            width: 100%;
+            height: 400px;
+            display: flex;
+          }
+            .finalSeasonRowOneDivOne{
+              border: 1px hidden;
+              width: 50%;
+              height: 400px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .finalSeasonRowOneDivTwo{
+              border: 1px hidden;
+              width: 50%;
+              height: 400px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+              .finalSeasonRowOneDivTwo img{
+                width: 100%;
+              }
+        .finalSeasonRowTwo{
+          border: 1px hidden;
+          width: 100%;
+          height: 600px;
+          background-image: url(PhotoSixTeen.jpeg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+          .finalSeasonDiv{
+            border: 1px hidden;
+            width:400px;
+            height: 250px;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+            .finalSeasonDiv button{
+              border: 1px hidden;
+              width: 150px;
+              height: 40px;
+              background-color: #EEE01C;
+            }
+.sectionSeven{
+  border: 1px hidden;
+  height: 250px;
+  background-color: rgba(200, 200, 200, 0.7);
+}
+  .forSays{
+    border: 1px hidden;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+  }
+    .forSays p{
+      color: black;
+    }
+    .forDelevery{
+      border: 1px hidden;
+      width: 25%;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 30px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .forDocument{
+      border: 1px hidden;
+      width: 25%;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 30px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .forSupport{
+      border: 1px hidden;
+      width: 25%;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 30px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .forSettings{
+      border: 1px hidden;
+      width: 25%;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 30px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+        .logoSet{
+          font-size: 50px;
+        }
+.sectionEight{
+  border: 1px hidden;
+  height: 500px;
+  background-image: url(PhotoForLastSection.jpeg);
+  background-size: 100% ;
+  background-repeat: no-repeat;
+}
+    .forSignUp{
+      border: 1px hidden;
+      height: 500px;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+      .forSignUp h1{
+        color: white;
+      }
+      .forSignUp form{
+        border: 1px hidden;
+        width: 600px;
+        display: flex;
+        justify-content: center;
+      }
+        .forSignUp  .Name{
+          width: 300px;
+        }
+        .forSignUp .submit{
+          width: 100px;
+          background-color: #EEE01C;
+        }
+.sectionEnd{
+  border: 1px hidden;
+  height: 150px;
+  background-color: rgba(200, 200, 200, 1.0);
+}
+  .forPageAbout{
+    border: 1px hidden;
+    height: 150px;
+    display: flex;
+  }
+    .LogoPage{
+      border: 1px hidden;
+      width: 25%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .LogoPage h1{
+        color: orange;
+      }
+      .LogoPage p {
+        color: black;
+      }
+    .endTextOne{
+      border: 1px hidden;
+      width: 25%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .endTextOne p{
+        color: black;
+      }
+      .endTextTwo{
+      border: 1px hidden;
+      width: 25%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .endTextTwo p{
+        color: black;
+      }
+      .endTextThree{
+      border: 1px hidden;
+      width: 25%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .endTextThree
+       p{
+        color: black;
+      }
+
+
+
+.forPhone{
+  display: none;
+}
+.sectionOnePhone{
+  display: none;
+}
+.sectionTwoPhone{
+  display: none;
+}
+.sectionThreePhone{
+  display: none;
+}
+.forTextTwoPhone{
+  display: none;
+}
+.forSellItemsPhone{
+  display: none;
+}
+.forFeaturedProductsPhone{
+display: none;
+}
+.textForFeaturedProductsPhone{
+display: none;
+}
+.textForFeaturedProductsPhone h3{
+display: none;
+}
+.textForFeaturedProductsPhone h1{
+display: none;
+}
+.textForFeaturedProductsPhone h3{
+display: none;
+}
+.YearForFeaturedProductsPhone{
+display: none;
+}
+.YearForFeaturedProductsPhone h1{
+display: none;
+}
+.forFashionistPhone{
+display: none;
+}
+.forDivFashionistPhone{
+display: none;
+}
+.forDivFashionistPhone button{
+display: none;
+}
+.forFinalSeasonPhone{
+display: none;
+}
+.divForFinalSeasonPhone{
+display: none;;
+}
+.divForFinalSeasonPhone button {
+display: none;
+}
+.forFeaturedProductsPhoneTwo{
+display: none;  }
+.forProductsPhone{
+display: none;
+}
+.divForFeaturedProducts{
+display: none;
+}
+.divForFeaturedProductsPhotoOne{
+display: none;
+}
+.divForFeaturedProductsPhotoOne img{
+display: none;
+}
+.divForFeaturedProductsPhotoTwo{
+display: none;
+}
+.divForFeaturedProductsPhotoTwo img{
+display: none;
+}
+.divForFeaturedProductsPhotoThree{
+display: none;
+}
+.divForFeaturedProductsPhotoThree img{
+display: none;
+}
+.forSettingsPhone{
+display: none;
+}
+.forSetPhone{
+display: none;
+}
+.logoSetPhone{
+display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 1025px) and (max-width: 1200px){
+body{
+  padding: 0 50px ;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.0) !important;
+  border-color: rgba(0, 0, 0, 0.0) !important;
+}
+  .menuLogo{
+    font-size: 25px;
+  }
+    .menuLogo:hover{
+      color: orange;
+    }
+.sectionOne{
+  border: 1px hidden;
+/*  height: 500px;*/
+  background-image:url(PhotoOne.jpg);
+  background-size: 100% ;
+  background-repeat: no-repeat;
+}
+  .forText{
+    border: 1px hidden;
+    height: 500px;
+    padding: 0 100px !important;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+    .forText h1{
+      font-size: 45px;
+      color: orange;
+    }
+    .forText h4{
+      font-size: 35px;
+      color: white;
+    }
+    .forText h2, p{
+      color: white;
+    }
+  .forYear{
+    border: 1px hidden;
+    height: 500px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 80px 50px !important;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+    .forYear h1{
+      font-size: 90px;
+      color: white;
+
+    }
+  .forSeasonSale{
+    border: 1px hidden;
+    height: 250px;
+    position: relative;
+    background-color: white;
+  }
+    .forSale{
+      border: 1px hidden;
+      width: 500px;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      background-color: white;
+      bottom: 100px;
+      left: 30%;
+      box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+    }
+      .forSale button{
+        border: 1px solid;
+        width: 150px;
+        height: 40px;
+        border-radius: 8px;
+        background-color: orange;
+        color: white;
+      }
+.sectionForLogos{
+  border: 1px hidden;
+  height: 200px;
+}
+  .forLogos{
+    border: 1px hidden;
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+  }
+    .Logo{
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+    }
+      .Logo:hover{
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+      }
+.sectionTwo{
+  border: 1px hidden;
+  height: 750px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+  .forSales{
+    border: 1px hidden;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 140px !important ;
+  }
+    .saleThingOne{
+      border: 1px hidden;
+      width: 300px;
+      height: 300px;
+      background-image:url(PhotoTwo.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSale{
+        border: 1px hidden;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+      }
+        .textSale h4, p{
+        color: white;
+        }
+          .saleThingOne:hover .textSale{
+            opacity: 1;
+          }
+    .saleThingTwo{
+      border: 1px hidden;
+      width: 300px;
+      height: 300px;
+      background-image: url(PhotoThree.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSaleTwo{
+        border: 1px hidden;
+        width: 300px;
+        height: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color: rgba(0, 0, 0, 0.5);  
+        opacity: 0;
+      }
+        .textSaleTwo h4, p{
+          color: white;
+        }
+          .saleThingTwo:hover .textSaleTwo{
+            opacity: 1;
+          }
+  .forSalesRowTwo{
+    border: 1px hidden;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 0 140px !important;
+  }
+    .saleThingThree{
+      border: 1px hidden;
+      width: 300px;
+      height: 300px;
+      background-image: url(PhotoFour.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSaleThree{
+        border: 1px hidden;
+        width: 300px;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        opacity: 0;
+      }
+        .textSaleThree h4,p{
+          color: white;
+        }
+        .saleThingThree:hover .textSaleThree{
+          opacity: 1;
+        }
+    .saleThingFour{
+      border: 1px hidden;
+      width: 300px;
+      height: 300px;
+      background-image: url(PhotoFive.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSaleFour{
+        border: 1px hidden;
+        width: 300px;
+        height: 300px;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        opacity: 0;
+      }
+        .textSaleFour h4, p{
+          color: white;
+        }
+        .saleThingFour:hover .textSaleFour{
+          opacity: 1;
+        }
+.sectionThree{
+  border: 1px hidden;
+  height: 400px;
+}
+  .forTextTwo{
+    border: 1px hidden;
+    height: 200px;
+    background-color: #EEE01C;
+    margin-top: 100px;
+    padding: 30px 200px !important;
+  }
+    .forTextTwo h1{
+      font-size: 50px;
+    }
+.sectionFour{
+  border: 1px hidden;
+  height: 900px;
+}
+  .forShop{
+    border: 1px hidden;
+    height: 800px;
+    display: flex;
+  }
+    .forShopRowOne{
+      border: 1px hidden;
+      width: 50%;
+      height: 800px;
+    } 
+      .forShopRowOneDivOne{
+        border: 1px hidden;
+        width: 100%;
+        height: 400px;
+        background-image: url(PhotoSix.jpeg);
+        background-size:100% ;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+        .forTextShopPhoto{
+          border: 1px hidden;
+          width: 400px;
+          height: 250px;
+          background-color: rgba(255, 255, 255, 0.7);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          justify-content: space-evenly;
+          padding: 30px 40px;
+          box-sizing: border-box;
+          box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+        }
+          .forTextShopPhoto button{
+            border: 1px hidden;
+            width: 150px;
+            height: 40px;
+            background-color: #EEE01C;
+          }
+      .forShopRowOnwDivTwo{
+        border: 1px hidden;
+        width: 100%;
+        height: 400px;
+        display: flex;
+      }
+        .forSellOne{
+          border: 1px hidden;
+          width: 50%;
+          height: 400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: center;
+        }
+          .forSellOne img{
+            width: 200px;
+            height: 240px;
+          }
+          .forSellTwo{
+            border: 1px hidden;
+            width: 50%;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+          }
+            .forSellTwo img{
+              width: 200px;
+              height: 240px;
+            }
+      .forShopRowTwo{
+        border: 1px hidden;
+        width: 50%;
+        height: 800px;
+      }
+        .forShopRowTwoDivOne{
+          border: 1px hidden;
+          width: 100%;
+          height: 350px;
+          display: flex;
+        }
+          .forSellThree{
+            border: 1px hidden;
+            width: 50%;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+            .forSellThree img{
+              width: 200px;
+              height: 240px;
+            }
+          .forSellFour{
+            border: 1px hidden;
+            width: 50%;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+            .forSellFour img{
+              width: 190px;
+              height: 240px;
+            }
+        .forShopRowTwoDivTwo{
+          border: 1px hidden;
+          width: 100%;
+          height: 450px;
+          background-image: url(PhotoEleven.jpeg);
+          background-size: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+          .forTextShopPhotoTwo{
+            border: 1px hidden;
+            width: 400px;
+            height: 250px;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+          }
+            .forTextShopPhotoTwo button{
+              border: 1px hidden;
+              width: 150px;
+              height: 40px;
+              background-color:#EEE01C ;
+            }
+.sectionFive{
+  border: 1px hidden;
+  height: 500px;
+  background-image: url(PhotoTuelf.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% ;
+}
+  .forTextMenStyle{
+    border: 1px hidden;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.2);    
+  }
+    .forTextMenStyle h4{
+      font-size: 30px;
+      color: white;
+    }
+    .forTextMenStyle h1{
+      font-size: 50px;
+      color: orange;
+    }
+    .forTextMenStyle h2,p{
+      color: white;
+    }
+  .forMenStyleYear{
+    border: 1px hidden;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 50px 50px !important;
+  }
+    .forMenStyleYear h1{
+      font-size: 90px;
+      color: white;
+    }
+.sectionSix{
+  border: 1px hidden;
+/*  height: 1000px;*/
+  padding: 50px 0 !important;
+}
+  .forFashion{
+    border: 1px hidden;
+/*    height: 1000px;*/
+display: flex;
+  }
+    .fashionRowOne{
+      border: 1px hidden;
+      width: 50%;
+/*      height: 1000px;*/
+    }
+      .fashionRowOneDivOne{
+        border: 1px hidden;
+        width: 100%;
+        height: 500px;
+        background-image: url(PhotoTrteen.jpeg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+          .fashionist{
+            border: 1px hidden;
+            width: 430px;
+            height: 270px;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+          }
+            .fashionist button{
+              border: 1px hidden;
+              width: 150px;
+              height: 40px;
+              background-color: #EEE01C;
+            }
+        .fashionRowTwo{
+          border: 1px hidden;
+          width: 100%;
+          height: 500px;
+          display: flex;
+        }
+          .fashionRowTwoDivOne{
+            border: 1px hidden;
+            width: 50%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+            .fashionRowTwoDivOne img{
+              width: 240px;
+            }
+          .fashionRowTwoDivTwo{
+            border: 1px hidden;
+            width: 50%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+            .fashionRowTwoDivTwo img{
+              width: 200px;
+            }
+        .finalSeason{
+          border: 1px hidden;
+          width: 50%;
+          height: 1000px;
+        }
+          .finalSeasonRowOne{
+            border: 1px hidden;
+            width: 100%;
+            height: 400px;
+            display: flex;
+          }
+            .finalSeasonRowOneDivOne{
+              border: 1px hidden;
+              width: 50%;
+              height: 400px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .finalSeasonRowOneDivTwo{
+              border: 1px hidden;
+              width: 50%;
+              height: 400px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+              .finalSeasonRowOneDivTwo img{
+                width: 100%;
+              }
+        .finalSeasonRowTwo{
+          border: 1px hidden;
+          width: 100%;
+          height: 600px;
+          background-image: url(PhotoSixTeen.jpeg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+          .finalSeasonDiv{
+            border: 1px hidden;
+            width:400px;
+            height: 250px;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+            .finalSeasonDiv button{
+              border: 1px hidden;
+              width: 150px;
+              height: 40px;
+              background-color: #EEE01C;
+            }
+.sectionSeven{
+  border: 1px hidden;
+  height: 250px;
+  background-color: rgba(200, 200, 200, 0.7);
+}
+  .forSays{
+    border: 1px hidden;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+  }
+    .forSays p{
+      color: black;
+    }
+    .forDelevery{
+      border: 1px hidden;
+      width: 25%;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 30px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .forDocument{
+      border: 1px hidden;
+      width: 25%;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 30px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .forSupport{
+      border: 1px hidden;
+      width: 25%;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 30px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .forSettings{
+      border: 1px hidden;
+      width: 25%;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 30px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+      .logoSet{
+        font-size: 40px;
+      }
+.sectionEight{
+  border: 1px hidden;
+  height: 500px;
+  background-image: url(PhotoForLastSection.jpeg);
+  background-size: 100% ;
+  background-repeat: no-repeat;
+}
+    .forSignUp{
+      border: 1px hidden;
+      height: 500px;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+      .forSignUp h1{
+        color: white;
+      }
+      .forSignUp form{
+        border: 1px hidden;
+        width: 600px;
+        display: flex;
+        justify-content: center;
+      }
+        .forSignUp  .Name{
+          width: 300px;
+        }
+        .forSignUp .submit{
+          width: 100px;
+          background-color: #EEE01C;
+        }
+.sectionEnd{
+  border: 1px hidden;
+  height: 150px;
+  background-color: rgba(200, 200, 200, 1.0);
+}
+  .forPageAbout{
+    border: 1px hidden;
+    height: 150px;
+    display: flex;
+  }
+    .LogoPage{
+      border: 1px hidden;
+      width: 25%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .LogoPage h1{
+        color: orange;
+      }
+      .LogoPage p {
+        color: black;
+      }
+    .endTextOne{
+      border: 1px hidden;
+      width: 25%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .endTextOne p{
+        color: black;
+      }
+      .endTextTwo{
+      border: 1px hidden;
+      width: 25%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .endTextTwo p{
+        color: black;
+      }
+      .endTextThree{
+      border: 1px hidden;
+      width: 25%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .endTextThree
+       p{
+        color: black;
+      }
+.forPhone{
+  display: none;
+}
+.sectionOnePhone{
+  display: none;
+}
+.sectionTwoPhone{
+  display: none;
+}
+.sectionThreePhone{
+  display: none;
+}
+.forTextTwoPhone{
+  display: none;
+}
+.forSellItemsPhone{
+  display: none;
+}
+.forFeaturedProductsPhone{
+display: none;
+}
+.textForFeaturedProductsPhone{
+display: none;
+}
+.textForFeaturedProductsPhone h3{
+display: none;
+}
+.textForFeaturedProductsPhone h1{
+display: none;
+}
+.textForFeaturedProductsPhone h3{
+display: none;
+}
+.YearForFeaturedProductsPhone{
+display: none;
+}
+.YearForFeaturedProductsPhone h1{
+display: none;
+}
+.forFashionistPhone{
+display: none;
+}
+.forDivFashionistPhone{
+display: none;
+}
+.forDivFashionistPhone button{
+display: none;
+}
+.forFinalSeasonPhone{
+display: none;
+}
+.divForFinalSeasonPhone{
+display: none;;
+}
+.divForFinalSeasonPhone button {
+display: none;
+}
+.forFeaturedProductsPhoneTwo{
+display: none;  }
+.forProductsPhone{
+display: none;
+}
+.divForFeaturedProducts{
+display: none;
+}
+.divForFeaturedProductsPhotoOne{
+display: none;
+}
+.divForFeaturedProductsPhotoOne img{
+display: none;
+}
+.divForFeaturedProductsPhotoTwo{
+display: none;
+}
+.divForFeaturedProductsPhotoTwo img{
+display: none;
+}
+.divForFeaturedProductsPhotoThree{
+display: none;
+}
+.divForFeaturedProductsPhotoThree img{
+display: none;
+}
+.forSettingsPhone{
+display: none;
+}
+.forSetPhone{
+display: none;
+}
+.logoSetPhone{
+display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:769px) and (max-width: 1024px){
+body{
+  padding: 0 0 ;
+}
+.navbar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.0) !important;
+  border-color: rgba(0, 0, 0, 0.0) !important;
+}
+  .menuLogo{
+    font-size: 23px;
+  }
+    .menuLogo:hover{
+      color: orange;
+    }
+.sectionOne{
+  border: 1px hidden;
+/*  height: 500px;*/
+  background-image:url(PhotoOne.jpg);
+  background-size: 100% ;
+  background-repeat: no-repeat;
+}
+  .forText{
+    border: 1px hidden;
+    height: 435px;
+    padding: 0 80px !important;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+    .forText h1{
+      font-size: 45px;
+      color: orange;
+    }
+    .forText h4{
+      font-size: 35px;
+      color: white;
+    }
+    .forText h2, p{
+      color: white;
+    }
+  .forYear{
+    border: 1px hidden;
+    height: 435px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding: 80px 50px !important;
+    background-color: rgba(0, 0, 0, 0.3);
+  }
+    .forYear h1{
+      font-size: 80px;
+      color: white;
+
+    }
+  .forSeasonSale{
+    border: 1px hidden;
+    height: 280px;
+    position: relative;
+    background-color: white;
+  }
+    .forSale{
+      border: 1px hidden;
+      width: 500px;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+/*      position: absolute;*/
+      background-color: white;
+      bottom: 100px;
+      left: 25%;
+      margin: auto !important;
+      box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+    }
+      .forSale button{
+        border: 1px solid;
+        width: 150px;
+        height: 40px;
+        border-radius: 8px;
+        background-color: orange;
+        color: white;
+      }
+.sectionForLogos{
+  border: 1px hidden;
+  height: 200px;
+}
+  .forLogos{
+    border: 1px hidden;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+  }
+    .Logo{
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+      .Logo:hover{
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+      }
+.sectionTwo{
+  border: 1px hidden;
+  height: 540px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+  .forSales{
+    border: 1px hidden;
+    height: 310px;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0 100px !important ;
+  }
+    .saleThingOne{
+      border: 1px hidden;
+      width: 250px;
+      height: 250px;
+      background-image:url(PhotoTwo.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSale{
+        border: 1px hidden;
+        width: 250px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content:flex-end;
+        background-color: rgba(0, 0, 0, 0.5);
+        opacity: 0;
+      }
+        .textSale h4, p{
+        color: white;
+        }
+          .saleThingOne:hover .textSale{
+            opacity: 1;
+          }
+    .saleThingTwo{
+      border: 1px hidden;
+      width: 250px;
+      height: 250px;
+      background-image: url(PhotoThree.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSaleTwo{
+        border: 1px hidden;
+        width: 250px;
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        background-color: rgba(0, 0, 0, 0.5);  
+        opacity: 0;
+      }
+        .textSaleTwo h4, p{
+          color: white;
+        }
+          .saleThingTwo:hover .textSaleTwo{
+            opacity: 1;
+          }
+  .forSalesRowTwo{
+    border: 1px hidden;
+    height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding: 0 100px !important;
+  }
+    .saleThingThree{
+      border: 1px hidden;
+      width: 250px;
+      height: 250px;
+      background-image: url(PhotoFour.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSaleThree{
+        border: 1px hidden;
+        width: 250px;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        opacity: 0;
+      }
+        .textSaleThree h4,p{
+          color: white;
+        }
+        .saleThingThree:hover .textSaleThree{
+          opacity: 1;
+        }
+    .saleThingFour{
+      border: 1px hidden;
+      width: 250px;
+      height: 250px;
+      background-image: url(PhotoFive.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSaleFour{
+        border: 1px hidden;
+        width: 250px;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.5);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        opacity: 0;
+      }
+        .textSaleFour h4, p{
+          color: white;
+        }
+        .saleThingFour:hover .textSaleFour{
+          opacity: 1;
+        }
+.sectionThree{
+  border: 1px hidden;
+  height: 400px;
+}
+  .forTextTwo{
+    border: 1px hidden;
+    height: 200px;
+    background-color: #EEE01C;
+    margin-top: 100px;
+    padding: 30px 100px !important;
+  }
+    .forTextTwo h1{
+      font-size: 40px;
+    }
+.sectionFour{
+  border: 1px hidden;
+  height: 800px;
+}
+  .forShop{
+    border: 1px hidden;
+    height: 800px;
+    display: flex;
+  }
+    .forShopRowOne{
+      border: 1px hidden;
+      width: 50%;
+      height: 800px;
+    } 
+      .forShopRowOneDivOne{
+        border: 1px hidden;
+        width: 100%;
+        height: 300px;
+        background-image: url(PhotoSix.jpeg);
+        background-size:100% ;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+      }
+        .forTextShopPhoto{
+          border: 1px hidden;
+          width: 300px;
+          height: 200px;
+          background-color: rgba(255, 255, 255, 0.7);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          justify-content: space-evenly;
+          padding: 30px 40px;
+          box-sizing: border-box;
+          box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+        }
+          .forTextShopPhoto button{
+            border: 1px hidden;
+            width: 150px;
+            height: 40px;
+            background-color: #EEE01C;
+          }
+      .forShopRowOnwDivTwo{
+        border: 1px hidden;
+        width: 100%;
+        height: 400px;
+        display: flex;
+      }
+        .forSellOne{
+          border: 1px hidden;
+          width: 50%;
+          height: 400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: flex-end;
+          align-items: center;
+        }
+          .forSellOne img{
+            width: 200px;
+            height: 240px;
+          }
+          .forSellTwo{
+            border: 1px hidden;
+            width: 50%;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: center;
+          }
+            .forSellTwo img{
+              width: 200px;
+              height: 240px;
+            }
+      .forShopRowTwo{
+        border: 1px hidden;
+        width: 50%;
+        height: 800px;
+      }
+        .forShopRowTwoDivOne{
+          border: 1px hidden;
+          width: 100%;
+          height: 350px;
+          display: flex;
+        }
+          .forSellThree{
+            border: 1px hidden;
+            width: 50%;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+            .forSellThree img{
+              width: 200px;
+              height: 240px;
+            }
+          .forSellFour{
+            border: 1px hidden;
+            width: 50%;
+            height: 350px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+          }
+            .forSellFour img{
+              width: 190px;
+              height: 240px;
+            }
+        .forShopRowTwoDivTwo{
+          border: 1px hidden;
+          width: 100%;
+          height: 450px;
+          background-image: url(PhotoEleven.jpeg);
+          background-size: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+          .forTextShopPhotoTwo{
+            border: 1px hidden;
+            width: 300px;
+            height: 200px;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+          }
+            .forTextShopPhotoTwo button{
+              border: 1px hidden;
+              width: 150px;
+              height: 40px;
+              background-color:#EEE01C ;
+            }
+.sectionFive{
+  border: 1px hidden;
+  height: 500px;
+  background-image: url(PhotoTuelf.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% ;
+}
+  .forTextMenStyle{
+    border: 1px hidden;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.2);    
+  }
+    .forTextMenStyle h4{
+      font-size: 30px;
+      color: white;
+    }
+    .forTextMenStyle h1{
+      font-size: 50px;
+      color: orange;
+    }
+    .forTextMenStyle h2,p{
+      color: white;
+    }
+  .forMenStyleYear{
+    border: 1px hidden;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 50px 50px !important;
+  }
+    .forMenStyleYear h1{
+      font-size: 90px;
+      color: white;
+    }
+.sectionSix{
+  border: 1px hidden;
+/*  height: 1000px;*/
+  padding: 50px 0 !important;
+}
+  .forFashion{
+    border: 1px hidden;
+/*    height: 1000px;*/
+display: flex;
+  }
+    .fashionRowOne{
+      border: 1px hidden;
+      width: 50%;
+/*      height: 1000px;*/
+    }
+      .fashionRowOneDivOne{
+        border: 1px hidden;
+        width: 100%;
+        height: 500px;
+        background-image: url(PhotoTrteen.jpeg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+          .fashionist{
+            border: 1px hidden;
+            width: 430px;
+            height: 270px;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+          }
+            .fashionist button{
+              border: 1px hidden;
+              width: 150px;
+              height: 40px;
+              background-color: #EEE01C;
+            }
+        .fashionRowTwo{
+          border: 1px hidden;
+          width: 100%;
+          height: 500px;
+          display: flex;
+        }
+          .fashionRowTwoDivOne{
+            border: 1px hidden;
+            width: 50%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+            .fashionRowTwoDivOne img{
+              width: 240px;
+            }
+          .fashionRowTwoDivTwo{
+            border: 1px hidden;
+            width: 50%;
+            height: 500px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+            .fashionRowTwoDivTwo img{
+              width: 200px;
+            }
+        .finalSeason{
+          border: 1px hidden;
+          width: 50%;
+          height: 1000px;
+        }
+          .finalSeasonRowOne{
+            border: 1px hidden;
+            width: 100%;
+            height: 400px;
+            display: flex;
+          }
+            .finalSeasonRowOneDivOne{
+              border: 1px hidden;
+              width: 50%;
+              height: 400px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+            .finalSeasonRowOneDivTwo{
+              border: 1px hidden;
+              width: 50%;
+              height: 400px;
+              display: flex;
+              justify-content: center;
+              align-items: center;
+            }
+              .finalSeasonRowOneDivTwo img{
+                width: 100%;
+              }
+        .finalSeasonRowTwo{
+          border: 1px hidden;
+          width: 100%;
+          height: 600px;
+          background-image: url(PhotoSixTeen.jpeg);
+          background-repeat: no-repeat;
+          background-size: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+          .finalSeasonDiv{
+            border: 1px hidden;
+            width:400px;
+            height: 250px;
+            background-color: rgba(255, 255, 255, 0.7);
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          }
+            .finalSeasonDiv button{
+              border: 1px hidden;
+              width: 150px;
+              height: 40px;
+              background-color: #EEE01C;
+            }
+.sectionSeven{
+  border: 1px hidden;
+  height: 250px;
+  background-color: rgba(200, 200, 200, 0.7);
+}
+  .forSays{
+    border: 1px hidden;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    color: black;
+  }
+    .forSays p{
+      color: black;
+    }
+    .forDelevery{
+      border: 1px hidden;
+      width: 25%;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 30px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .forDocument{
+      border: 1px hidden;
+      width: 25%;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 30px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .forSupport{
+      border: 1px hidden;
+      width: 25%;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 30px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .forSettings{
+      border: 1px hidden;
+      width: 25%;
+      height: 250px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      padding: 0 30px;
+      box-sizing: border-box;
+      text-align: center;
+    }
+      .logoSet{
+        font-size: 40px;
+      }
+.sectionEight{
+  border: 1px hidden;
+  height: 500px;
+  background-image: url(PhotoForLastSection.jpeg);
+  background-size: 100% ;
+  background-repeat: no-repeat;
+}
+    .forSignUp{
+      border: 1px hidden;
+      height: 500px;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+      .forSignUp h1{
+        color: white;
+      }
+      .forSignUp form{
+        border: 1px hidden;
+        width: 600px;
+        display: flex;
+        justify-content: center;
+      }
+        .forSignUp  .Name{
+          width: 300px;
+        }
+        .forSignUp .submit{
+          width: 100px;
+          background-color: #EEE01C;
+        }
+.sectionEnd{
+  border: 1px hidden;
+  height: 150px;
+  background-color: rgba(200, 200, 200, 1.0);
+}
+  .forPageAbout{
+    border: 1px hidden;
+    height: 150px;
+    display: flex;
+  }
+    .LogoPage{
+      border: 1px hidden;
+      width: 25%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .LogoPage h1{
+        color: orange;
+      }
+      .LogoPage p {
+        color: black;
+      }
+    .endTextOne{
+      border: 1px hidden;
+      width: 25%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .endTextOne p{
+        color: black;
+      }
+      .endTextTwo{
+      border: 1px hidden;
+      width: 25%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .endTextTwo p{
+        color: black;
+      }
+      .endTextThree{
+      border: 1px hidden;
+      width: 25%;
+      height: 150px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .endTextThree
+       p{
+        color: black;
+      }
+.forPhone{
+  display: none;
+}
+.sectionOnePhone{
+  display: none;
+}
+.sectionTwoPhone{
+  display: none;
+}
+.sectionThreePhone{
+  display: none;
+}
+.forTextTwoPhone{
+  display: none;
+}
+.forSellItemsPhone{
+  display: none;
+}
+.forFeaturedProductsPhone{
+display: none;
+}
+.textForFeaturedProductsPhone{
+display: none;
+}
+.textForFeaturedProductsPhone h3{
+display: none;
+}
+.textForFeaturedProductsPhone h1{
+display: none;
+}
+.textForFeaturedProductsPhone h3{
+display: none;
+}
+.YearForFeaturedProductsPhone{
+display: none;
+}
+.YearForFeaturedProductsPhone h1{
+display: none;
+}
+.forFashionistPhone{
+display: none;
+}
+.forDivFashionistPhone{
+display: none;
+}
+.forDivFashionistPhone button{
+display: none;
+}
+.forFinalSeasonPhone{
+display: none;
+}
+.divForFinalSeasonPhone{
+display: none;;
+}
+.divForFinalSeasonPhone button {
+display: none;
+}
+.forFeaturedProductsPhoneTwo{
+display: none;  }
+.forProductsPhone{
+display: none;
+}
+.divForFeaturedProducts{
+display: none;
+}
+.divForFeaturedProductsPhotoOne{
+display: none;
+}
+.divForFeaturedProductsPhotoOne img{
+display: none;
+}
+.divForFeaturedProductsPhotoTwo{
+display: none;
+}
+.divForFeaturedProductsPhotoTwo img{
+display: none;
+}
+.divForFeaturedProductsPhotoThree{
+display: none;
+}
+.divForFeaturedProductsPhotoThree img{
+display: none;
+}
+.forSettingsPhone{
+display: none;
+}
+.forSetPhone{
+display: none;
+}
+.logoSetPhone{
+display: none;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:481px) and (max-width: 768px){
+body{
+  padding: 0 0 ;
+}
+.navbar{
+  display: none;
+}
+.menuLogo{
+display: none;
+}
+.menuLogo:hover{
+display: none;
+}
+.sectionOne{
+display: none;
+}
+.forText{
+display: none;
+}
+.forText h1{
+display: none;
+}
+.forText h4{
+display: none;
+}
+.forText h2, p{
+display: none;
+}
+.forYear{
+display: none;
+}
+.forYear h1{
+display: none;
+}
+.forSeasonSale{
+display: none;
+}
+.forSale{
+display: none;
+}
+.forSale button{
+display: none;
+}
+.sectionForLogos{
+ display: none;
+}
+.forLogos{
+display: none;
+}
+.Logo{
+display: none;
+}
+.Logo:hover{
+display: none;
+}
+.sectionTwo{
+display: none;
+}
+.forSales{
+display: none;
+}
+.saleThingOne{
+display: none;
+}
+.textSale{
+display: none;
+}
+.textSale h4, p{
+display: none;
+}
+.saleThingOne:hover .textSale{
+display: none;
+}
+.saleThingTwo{
+display: none;
+}
+.textSaleTwo{
+display: none;
+}
+.textSaleTwo h4, p{
+display: none;
+}
+.saleThingTwo:hover .textSaleTwo{
+display: none;
+}
+.forSalesRowTwo{
+display: none;
+}
+.saleThingThree{
+display: none;
+}
+.textSaleThree{
+display: none;
+}
+.textSaleThree h4,p{
+display: none;
+}
+.saleThingThree:hover .textSaleThree{
+display: none;
+}
+.saleThingFour{
+display: none;
+}
+.textSaleFour{
+display: none;
+}
+.textSaleFour h4, p{
+display: none;
+}
+.saleThingFour:hover .textSaleFour{
+display: none;
+}
+.sectionThree{
+  display: none;
+}
+.sectionFour{
+  display: none;
+}
+.sectionFive{
+display: none;
+}
+.forTextMenStyle{
+display: none;
+}
+.forTextMenStyle h4{
+display: none;
+}
+.forTextMenStyle h1{
+display: none;
+}
+.forTextMenStyle h2,p{
+color: white;
+}
+.forMenStyleYear{
+display: none;
+}
+.forMenStyleYear h1{
+display: none;
+}
+.sectionSix{
+display: none;
+}
+.forFashion{
+display: none;
+}
+.fashionRowOne{
+display: none;
+}
+.fashionRowOneDivOne{
+display: none;
+}
+.fashionist{
+display: none;
+}
+.fashionist button{
+display: none;
+}
+.fashionRowTwo{
+display: none;
+}
+.fashionRowTwoDivOne{
+display: none;
+}
+.fashionRowTwoDivOne img{
+display: none;
+}
+.fashionRowTwoDivTwo{
+display: none;
+}
+.fashionRowTwoDivTwo img{
+display: none;
+}
+.finalSeason{
+display: none;
+}
+.finalSeasonRowOne{
+display: none;
+}
+.finalSeasonRowOneDivOne{
+display: none;
+}
+.finalSeasonRowOneDivTwo{
+display: none;
+}
+.finalSeasonRowOneDivTwo img{
+display: none;
+}
+.finalSeasonRowTwo{
+display: none;
+}
+.finalSeasonDiv{
+display: none;
+}
+.finalSeasonDiv button{
+display: none;
+}
+.sectionSeven{
+display: none;
+}
+.forSays{
+display: none;
+}
+.forSays p{
+color: black;
+}
+.forDelevery{
+display: none;
+}
+.forDocument{
+display: none;
+}
+.forSupport{
+display: none;
+}
+.forSettings{
+display: none;
+}
+.logoSet{
+display: none;
+}
+body {
+  padding: 30px !important;
+}
+.forPhone{
+  border: 1px hidden;
+  padding: 0 0 !important;
+}
+
+.forNavBarPhone{
+  border: 1px hidden;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .menuLogoPhone{
+    font-size: 20px;
+  }
+  .sectionOnePhone{
+    border: 1px hidden;
+    height: 350px;
+    background-image: url(PhotoOne.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 0 0 !important;
+    display: flex !important;
+  }
+    .forTextOnePhone{
+      border: 1px hidden;
+      width: 100%;
+      height: 350px;
+      background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+      .forTextOnePhone h4{
+        color: white;
+      }
+      .forTextOnePhone h1{
+        color: orange;
+      }
+      .forTextOnePhone h2{
+        color: white;
+      }
+      .forTextOnePhone p{
+        color: white;
+      }
+.sectionTwoPhone{
+  border: 1px hidden;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .forMidSeasonPhone{
+    border: 1px hidden;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+    .forMidSeasonPhone button{
+      border: 1px hidden;
+      width: 150px;
+      height: 40px;
+      background-color: orange;
+    }
+.sectionThreePhone{
+  border: 1px hidden;
+/*  height: 700px;*/
+  display: flex;
+}
+  .forLogosPhone{
+    border: 1px hidden;
+    width: 20%;
+/*    height: 700px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+    .LogoPhone{
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+      .LogoPhone:hover{
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+      }
+  .forSalesPhone{
+    border: 1px hidden;
+    width: 80%;
+/*    height: 700px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+    .saleThingPhoneOne{
+      border: 1px hidden;
+      width: 250px;
+      height: 250px;
+      background-image: url(PhotoTwo.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSalePhone{
+        border: 1px hidden;
+        width: 250px;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        opacity: 0;
+      }
+        .textSalePhone h4,span{
+          color: white;
+        }
+          .saleThingPhoneOne:hover .textSalePhone{
+            opacity: 1;
+          }
+    .saleThingPhoneTwo{
+      border: 1px hidden;
+      width: 250px;
+      height: 250px;
+      background-image: url(PhotoThree.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSalePhoneTwo{
+        border: 1px hidden;
+        width: 250px;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        opacity: 0;
+      }
+        .textSalePhoneTwo h4,span{
+          color: white;
+        }
+          .saleThingPhoneTwo:hover .textSalePhoneTwo{
+            opacity: 1;
+          }
+    .saleThingPhoneThree{
+      border: 1px hidden;
+      width: 250px;
+      height: 250px;
+      background-image: url(PhotoFour.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSalePhoneThree{
+        border: 1px hidden;
+        width: 250px;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+        .textSalePhoneThree h4,span{
+          color: white;
+        }
+          .saleThingPhoneThree:hover .textSalePhoneThree{
+            opacity: 1;
+          }
+    .saleThingPhoneFour{
+      border: 1px hidden;
+      width: 250px;
+      height: 250px;
+      background-image: url(PhotoFive.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSalePhoneFour{
+        border: 1px hidden;
+        width: 250px;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+        .textSalePhoneFour h4, span{
+          color: white;
+        }
+        .saleThingPhoneFour:hover .textSalePhoneFour{
+          opacity: 1;
+        }
+.forTextTwoPhone{
+  border: 1px hidden;
+  height: 100px;
+  background-color:#EEE01C ;
+}
+.forSellItemsPhone{
+  border: 1px hidden;
+/*  height: 1000px;*/
+  padding: 0 0 !importantx;
+}
+  .itemOnePhone{
+    border: 1px hidden;
+    width: 100%;
+    height: 400px;
+    background-image: url(PhotoSix.jpeg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .sellItemOnePhone{
+      border: 1px hidden;
+      width: 400px;
+      height: 250px;
+      background-color: rgba(255, 255, 255, 0.7);
+      box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+      .sellItemOnePhone button{
+        border: 1px hidden;
+        width: 150px;
+        height: 40px;
+        background-color: #EEE01C;
+      }
+    .forSellItemsTwo{
+      border: 1px hidden;
+      width: 100%;
+      height: 400px;
+      display: flex;
+    }
+      .sellitemsOnePhone{
+        border: 1px hidden;
+        width: 50%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+        .sellitemsOnePhone img{
+          width: 200px;
+        }
+      .sellItemTwoPhone{
+        border: 1px hidden;
+        width: 50%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+        .sellItemTwoPhone img{
+          width: 180px;
+          height: 260px;
+        }
+      .itemTwoPhone{
+        border: 1px hidden;
+        width: 100%;
+        height: 400px;
+        background-image: url(PhotoEleven.jpeg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+        .sellItemPhoneTwo{
+          border: 1px hidden;
+          width: 400px;
+          height: 250px;
+          background-color: rgba(255, 255, 255, 0.7);
+          box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+          .sellItemPhoneTwo button{
+            border: 1px hidden;
+            width: 150px;
+            height: 40px;
+            background-color: #EEE01C;
+          }
+      .forSellItemsThree{
+        border: 1px hidden;
+        width: 100%;
+        height: 400px;
+        display: flex;
+      }
+        .sellItemThree{
+          border: 1px hidden;
+          width: 50%;
+          height: 400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+          .sellItemThree img{
+            width: 200px;
+            height: 278px;
+          }
+        .sellItemFour{
+          border: 1px hidden;
+          width: 50%;
+          height: 400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+          .sellItemFour img{
+            width: 200px;
+            height: 290px;
+          }
+  .forFeaturedProductsPhone{
+    border: 1px hidden;
+    height: 340px;
+    background-image: url(PhotoTuelf.jpeg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 0 0 !important;
+  }
+    .textForFeaturedProductsPhone{
+      border: 1px hidden;
+      width: 50%;
+      height: 340px;
+      background-color: rgba(0, 0, 0, 0.4);
+    padding-left: 30px !important;
+/*      z-index: 2;*/
+    }
+      .textForFeaturedProductsPhone h3{
+          color: white;
+      }
+      .textForFeaturedProductsPhone h1{
+          color: orange;
+      }
+      .textForFeaturedProductsPhone h3{
+          color: white;
+      }
+    .YearForFeaturedProductsPhone{
+      border: 1px hidden;
+      width: 50%;
+      height: 340px;
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.4);
+      justify-content: flex-end;
+      align-items: flex-end;
+      padding: 30px 30px !important;
+      box-sizing: border-box;
+    }
+      .YearForFeaturedProductsPhone h1{
+        font-size: 50px;
+        color: white;
+      }
+  .forFashionistPhone{
+    border: 1px hidden;
+    height: 350px;
+    background-image: url(PhotoTrteen.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .forDivFashionistPhone{
+      border: 1px hidden;
+      width: 350px;
+      height: 200px;
+      background-color:rgba(255, 255, 255, 0.7) ;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+      .forDivFashionistPhone button{
+        border: 1px hidden;
+        width: 150px;
+        height: 40px;
+        background-color: #EEE01C;
+      }
+  .forFinalSeasonPhone{
+    border: 1px hidden;
+    height: 350px;
+    background-image: url(PhotoEleven.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .divForFinalSeasonPhone{
+      border: 1px hidden;
+      width: 350px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.7);
+      box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+      .divForFinalSeasonPhone button {
+        border: 1px hidden;
+        width: 150px;
+        height: 40px;
+        background-color: #EEE01C;
+      }
+  .forFeaturedProductsPhoneTwo{
+    border: 1px hidden;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+      .forProductsPhone{
+        border: 1px hidden;
+        width: 350px;
+        height: 400px;
+        display: flex;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 24px;
+        gap: 12px;
+        padding: 20px;
+      }
+        .divForFeaturedProducts{
+          border: 1px hidden;
+          width: 100%;
+          height: 350px;
+          flex: 0 0 100%;
+          scroll-snap-align: start;
+          display: flex;
+          align-items: center ;
+          border-radius: 8px;
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+        .divForFeaturedProductsPhotoOne{
+          border: 1px hidden;
+          width: 100%;
+          height: 350px;
+          flex: 0 0 100%;
+          scroll-snap-align: start;
+          border-radius: 8px;
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+          .divForFeaturedProductsPhotoOne img{
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+          }
+        .divForFeaturedProductsPhotoTwo{
+          border: 1px hidden;
+          width: 100%;
+          height: 350px;
+          flex: 0 0 100%;
+          scroll-snap-align: start;
+          border-radius: 8px;
+          padding: 0 30px;
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+          .divForFeaturedProductsPhotoTwo img{
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+          }
+        .divForFeaturedProductsPhotoThree{
+          border: 1px hidden;
+          width: 100%;
+          height: 350px;
+          flex: 0 0 100%;
+          scroll-snap-align: start;
+          border-radius: 8px;
+          padding: 0 30px;
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+        .divForFeaturedProductsPhotoThree img{
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+          }
+  .forSettingsPhone{
+        border: 1px hidden;
+        height: 150px;
+        display: flex;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 24px;
+        gap: 12px;
+        padding: 20px;
+
+  }
+    .forSetPhone{
+      border: 1px hidden;
+      width: 300px;
+      height: 100px;
+      scroll-snap-align: start;
+      flex: 0 0 100%;
+      text-align: center;
+      background-color: rgba(200, 200, 200, 0.5);
+    }
+      .logoSetPhone{
+        font-size:30px ;
+      }
+.sectionEight{
+  border: 1px hidden;
+  height: 300px;
+  background-image: url(PhotoForLastSection.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  padding: 0 15px !important;
+}
+    .forSignUp{
+      border: 1px hidden;
+      height: 300px;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+      .forSignUp h1{
+        color: white;
+        font-size: 30px;
+      }
+      .forSignUp form{
+        border: 1px hidden;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+      }
+      .forSignUp p{
+        display: none;
+      }
+        .forSignUp  .Name{
+          width: 300px;
+        }
+        .forSignUp .submit{
+          width: 100px;
+          background-color: #EEE01C;
+        }
+.sectionEnd{
+  border: 1px hidden;
+/*  height: 150px;*/
+  background-color: rgba(200, 200, 200, 1.0);
+}
+  .forPageAbout{
+    border: 1px hidden;
+/*    height: 150px;*/
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+    .LogoPage{
+      border: 1px hidden;
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .LogoPage h1{
+        color: orange;
+      }
+      .LogoPage span {
+        color: black;
+      }
+    .endTextOne{
+      border: 1px hidden;
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .endTextOne span{
+        color: black;
+      }
+      .endTextTwo{
+      border: 1px hidden;
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .endTextTwo span{
+        color: black;
+      }
+      .endTextThree{
+      border: 1px hidden;
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .endTextThree span{
+        color: black;
+      }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:320px) and (max-width: 480px){
+body{
+  padding: 0 0 ;
+}
+.navbar{
+  display: none;
+}
+.menuLogo{
+display: none;
+}
+.menuLogo:hover{
+display: none;
+}
+.sectionOne{
+display: none;
+}
+.forText{
+display: none;
+}
+.forText h1{
+display: none;
+}
+.forText h4{
+display: none;
+}
+.forText h2, p{
+display: none;
+}
+.forYear{
+display: none;
+}
+.forYear h1{
+display: none;
+}
+.forSeasonSale{
+display: none;
+}
+.forSale{
+display: none;
+}
+.forSale button{
+display: none;
+}
+.sectionForLogos{
+ display: none;
+}
+.forLogos{
+display: none;
+}
+.Logo{
+display: none;
+}
+.Logo:hover{
+display: none;
+}
+.sectionTwo{
+display: none;
+}
+.forSales{
+display: none;
+}
+.saleThingOne{
+display: none;
+}
+.textSale{
+display: none;
+}
+.textSale h4, p{
+display: none;
+}
+.saleThingOne:hover .textSale{
+display: none;
+}
+.saleThingTwo{
+display: none;
+}
+.textSaleTwo{
+display: none;
+}
+.textSaleTwo h4, p{
+display: none;
+}
+.saleThingTwo:hover .textSaleTwo{
+display: none;
+}
+.forSalesRowTwo{
+display: none;
+}
+.saleThingThree{
+display: none;
+}
+.textSaleThree{
+display: none;
+}
+.textSaleThree h4,p{
+display: none;
+}
+.saleThingThree:hover .textSaleThree{
+display: none;
+}
+.saleThingFour{
+display: none;
+}
+.textSaleFour{
+display: none;
+}
+.textSaleFour h4, p{
+display: none;
+}
+.saleThingFour:hover .textSaleFour{
+display: none;
+}
+.sectionThree{
+  display: none;
+}
+.sectionFour{
+  display: none;
+}
+.sectionFive{
+display: none;
+}
+.forTextMenStyle{
+display: none;
+}
+.forTextMenStyle h4{
+display: none;
+}
+.forTextMenStyle h1{
+display: none;
+}
+.forTextMenStyle h2,p{
+color: white;
+}
+.forMenStyleYear{
+display: none;
+}
+.forMenStyleYear h1{
+display: none;
+}
+.sectionSix{
+display: none;
+}
+.forFashion{
+display: none;
+}
+.fashionRowOne{
+display: none;
+}
+.fashionRowOneDivOne{
+display: none;
+}
+.fashionist{
+display: none;
+}
+.fashionist button{
+display: none;
+}
+.fashionRowTwo{
+display: none;
+}
+.fashionRowTwoDivOne{
+display: none;
+}
+.fashionRowTwoDivOne img{
+display: none;
+}
+.fashionRowTwoDivTwo{
+display: none;
+}
+.fashionRowTwoDivTwo img{
+display: none;
+}
+.finalSeason{
+display: none;
+}
+.finalSeasonRowOne{
+display: none;
+}
+.finalSeasonRowOneDivOne{
+display: none;
+}
+.finalSeasonRowOneDivTwo{
+display: none;
+}
+.finalSeasonRowOneDivTwo img{
+display: none;
+}
+.finalSeasonRowTwo{
+display: none;
+}
+.finalSeasonDiv{
+display: none;
+}
+.finalSeasonDiv button{
+display: none;
+}
+.sectionSeven{
+display: none;
+}
+.forSays{
+display: none;
+}
+.forSays p{
+color: black;
+}
+.forDelevery{
+display: none;
+}
+.forDocument{
+display: none;
+}
+.forSupport{
+display: none;
+}
+.forSettings{
+display: none;
+}
+.logoSet{
+display: none;
+}
+body{
+  padding: 0 10px !important;
+}
+.forPhone{
+  border: 1px hidden;
+  padding: 0 0 !important;
+}
+
+.forNavBarPhone{
+  border: 1px hidden;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+  .menuLogoPhone{
+    font-size: 20px;
+  }
+  .sectionOnePhone{
+    border: 1px hidden;
+    height: 350px;
+    background-image: url(PhotoOne.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    padding: 0 0 !important;
+    display: flex !important;
+  }
+    .forTextOnePhone{
+      border: 1px hidden;
+      width: 100%;
+      height: 350px;
+      background-color: rgba(0, 0, 0, 0.3);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+      .forTextOnePhone h4{
+        color: white;
+      }
+      .forTextOnePhone h1{
+        color: orange;
+      }
+      .forTextOnePhone h2{
+        color: white;
+      }
+      .forTextOnePhone p{
+        color: white;
+      }
+.sectionTwoPhone{
+  border: 1px hidden;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  .forMidSeasonPhone{
+    border: 1px hidden;
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+  }
+    .forMidSeasonPhone button{
+      border: 1px hidden;
+      width: 150px;
+      height: 40px;
+      background-color: orange;
+    }
+.sectionThreePhone{
+  border: 1px hidden;
+/*  height: 700px;*/
+  display: flex;
+}
+  .forLogosPhone{
+    border: 1px hidden;
+    width: 20%;
+/*    height: 700px;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+    .LogoPhone{
+      border-radius: 50%;
+      width: 100px;
+      height: 100px;
+    }
+      .LogoPhone:hover{
+        box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+      }
+  .forSalesPhone{
+    border: 1px hidden;
+    width: 80%;
+/*    height: 700px;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+    .saleThingPhoneOne{
+      border: 1px hidden;
+      width: 250px;
+      height: 250px;
+      background-image: url(PhotoTwo.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSalePhone{
+        border: 1px hidden;
+        width: 250px;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        opacity: 0;
+      }
+        .textSalePhone h4,span{
+          color: white;
+        }
+          .saleThingPhoneOne:hover .textSalePhone{
+            opacity: 1;
+          }
+    .saleThingPhoneTwo{
+      border: 1px hidden;
+      width: 250px;
+      height: 250px;
+      background-image: url(PhotoThree.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSalePhoneTwo{
+        border: 1px hidden;
+        width: 250px;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.4);
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+        opacity: 0;
+      }
+        .textSalePhoneTwo h4,span{
+          color: white;
+        }
+          .saleThingPhoneTwo:hover .textSalePhoneTwo{
+            opacity: 1;
+          }
+    .saleThingPhoneThree{
+      border: 1px hidden;
+      width: 250px;
+      height: 250px;
+      background-image: url(PhotoFour.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSalePhoneThree{
+        border: 1px hidden;
+        width: 250px;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+        .textSalePhoneThree h4,span{
+          color: white;
+        }
+          .saleThingPhoneThree:hover .textSalePhoneThree{
+            opacity: 1;
+          }
+    .saleThingPhoneFour{
+      border: 1px hidden;
+      width: 250px;
+      height: 250px;
+      background-image: url(PhotoFive.jpeg);
+      background-size: 100% 100%;
+    }
+      .textSalePhoneFour{
+        border: 1px hidden;
+        width: 250px;
+        height: 250px;
+        background-color: rgba(0, 0, 0, 0.4);
+        opacity: 0;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+      }
+        .textSalePhoneFour h4, span{
+          color: white;
+        }
+        .saleThingPhoneFour:hover .textSalePhoneFour{
+          opacity: 1;
+        }
+.forTextTwoPhone{
+  border: 1px hidden;
+  height: 100px;
+  background-color:#EEE01C ;
+}
+.forSellItemsPhone{
+  border: 1px hidden;
+/*  height: 1000px;*/
+  padding: 0 0 !importantx;
+}
+  .itemOnePhone{
+    border: 1px hidden;
+    width: 100%;
+    height: 400px;
+    background-image: url(PhotoSix.jpeg);
+    background-size: 100% 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .sellItemOnePhone{
+      border: 1px hidden;
+      width: 400px;
+      height: 250px;
+      background-color: rgba(255, 255, 255, 0.7);
+      box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+      .sellItemOnePhone button{
+        border: 1px hidden;
+        width: 150px;
+        height: 40px;
+        background-color: #EEE01C;
+      }
+    .forSellItemsTwo{
+      border: 1px hidden;
+      width: 100%;
+/*      height: 400px;*/
+      display: flex;
+      flex-direction: column;
+    }
+      .sellitemsOnePhone{
+        border: 1px hidden;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+        .sellitemsOnePhone img{
+          width: 200px;
+        }
+      .sellItemTwoPhone{
+        border: 1px hidden;
+        width: 100%;
+        height: 400px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      }
+        .sellItemTwoPhone img{
+          width: 180px;
+          height: 260px;
+        }
+      .itemTwoPhone{
+        border: 1px hidden;
+        width: 100%;
+        height: 400px;
+        background-image: url(PhotoEleven.jpeg);
+        background-size: 100%;
+        background-repeat: no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+        .sellItemPhoneTwo{
+          border: 1px hidden;
+          width: 400px;
+          height: 250px;
+          background-color: rgba(255, 255, 255, 0.7);
+          box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.4);
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+          .sellItemPhoneTwo button{
+            border: 1px hidden;
+            width: 150px;
+            height: 40px;
+            background-color: #EEE01C;
+          }
+      .forSellItemsThree{
+        border: 1px hidden;
+        width: 100%;
+/*        height: 400px;*/
+        display: flex;
+        flex-direction: column;
+      }
+        .sellItemThree{
+          border: 1px hidden;
+          width: 100%;
+          height: 400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+          .sellItemThree img{
+            width: 200px;
+            height: 278px;
+          }
+        .sellItemFour{
+          border: 1px hidden;
+          width: 100%;
+          height: 400px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+        }
+          .sellItemFour img{
+            width: 200px;
+            height: 290px;
+          }
+  .forFeaturedProductsPhone{
+    border: 1px hidden;
+    height: 250px;
+    background-image: url(PhotoTuelf.jpeg);
+    background-size: 100% ;
+    background-repeat: no-repeat;
+    display: flex;
+    padding: 0 0 !important;
+  }
+    .textForFeaturedProductsPhone{
+      border: 1px hidden;
+      width: 50%;
+      height: 250px;
+      background-color: rgba(0, 0, 0, 0.4);
+    padding-left: 20px !important;
+    }
+      .textForFeaturedProductsPhone h3{
+          color: white;
+      }
+      .textForFeaturedProductsPhone h1{
+          color: orange;
+      }
+      .textForFeaturedProductsPhone h3{
+          color: white;
+      }
+    .YearForFeaturedProductsPhone{
+      border: 1px hidden;
+      width: 50%;
+      height: 250px;
+      display: flex;
+      background-color: rgba(0, 0, 0, 0.4);
+      justify-content: flex-end;
+      align-items: flex-end;
+      padding: 30px 30px !important;
+      box-sizing: border-box;
+    }
+      .YearForFeaturedProductsPhone h1{
+        font-size: 30px;
+        color: white;
+      }
+  .forFashionistPhone{
+    border: 1px hidden;
+    height: 350px;
+    background-image: url(PhotoTrteen.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .forDivFashionistPhone{
+      border: 1px hidden;
+      width: 350px;
+      height: 200px;
+      background-color:rgba(255, 255, 255, 0.7) ;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+      .forDivFashionistPhone button{
+        border: 1px hidden;
+        width: 150px;
+        height: 40px;
+        background-color: #EEE01C;
+      }
+  .forFinalSeasonPhone{
+    border: 1px hidden;
+    height: 350px;
+    background-image: url(PhotoEleven.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+    .divForFinalSeasonPhone{
+      border: 1px hidden;
+      width: 350px;
+      height: 200px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.7);
+      box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.5);
+    }
+      .divForFinalSeasonPhone button {
+        border: 1px hidden;
+        width: 150px;
+        height: 40px;
+        background-color: #EEE01C;
+      }
+  .forFeaturedProductsPhoneTwo{
+    border: 1px hidden;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+      .forProductsPhone{
+        border: 1px hidden;
+        width: 350px;
+        height: 400px;
+        display: flex;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 24px;
+        gap: 82px;
+        padding: 20px;
+      }
+        .divForFeaturedProducts{
+          border: 1px hidden;
+          width: 100%;
+          height: 350px;
+          flex: 0 0 100%;
+          scroll-snap-align: start;
+          display: flex;
+          align-items: center ;
+          border-radius: 8px;
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+        .divForFeaturedProductsPhotoOne{
+          border: 1px hidden;
+          width: 100%;
+          height: 350px;
+          flex: 0 0 100%;
+          scroll-snap-align: start;
+          border-radius: 8px;
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+          .divForFeaturedProductsPhotoOne img{
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+          }
+        .divForFeaturedProductsPhotoTwo{
+          border: 1px hidden;
+          width: 100%;
+          height: 350px;
+          flex: 0 0 100%;
+          scroll-snap-align: start;
+          border-radius: 8px;
+          padding: 0 30px;
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+          .divForFeaturedProductsPhotoTwo img{
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+          }
+        .divForFeaturedProductsPhotoThree{
+          border: 1px hidden;
+          width: 100%;
+          height: 350px;
+          flex: 0 0 100%;
+          scroll-snap-align: start;
+          border-radius: 8px;
+          padding: 0 30px;
+          background-color: rgba(0, 0, 0, 0.3);
+        }
+        .divForFeaturedProductsPhotoThree img{
+            width: 100%;
+            height: 100%;
+            border-radius: 8px;
+          } 
+    .forSettingsPhone{
+        border: 1px hidden;
+        height: 150px;
+        display: flex;
+        overflow-x: scroll;
+        scroll-snap-type: x mandatory;
+        scroll-padding: 24px;
+        gap: 12px;
+        padding: 20px;
+
+  }
+    .forSetPhone{
+      border: 1px hidden;
+      width: 300px;
+      height: 100px;
+      scroll-snap-align: start;
+      flex: 0 0 100%;
+      text-align: center;
+      background-color: rgba(200, 200, 200, 0.5);
+    }
+      .logoSetPhone{
+        font-size:30px ;
+      }
+.sectionEight{
+  border: 1px hidden;
+  height: 250px;
+  background-image: url(PhotoForLastSection.jpeg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+/*  padding: 0 15px !important;*/
+}
+    .forSignUp{
+      border: 1px hidden;
+      height: 250px;
+      background-color: rgba(0, 0, 0, 0.4);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+      .forSignUp h1{
+        color: white;
+        font-size: 20px;
+      }
+      .forSignUp form{
+        border: 1px hidden;
+        width: 250px;
+        display: flex;
+        justify-content: center;
+      }
+      .forSignUp p{
+        display: none;
+      }
+        .forSignUp  .Name{
+          width: 300px;
+        }
+        .forSignUp .submit{
+          width: 100px;
+          background-color: #EEE01C;
+        }
+.sectionEnd{
+  border: 1px hidden;
+/*  height: 150px;*/
+  background-color: rgba(200, 200, 200, 1.0);
+}
+  .forPageAbout{
+    border: 1px hidden;
+/*    height: 150px;*/
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+    .LogoPage{
+      border: 1px hidden;
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+/*  z-index: 3;*/
+    }
+      .LogoPage h1{
+        color: orange;
+      }
+      .LogoPage span {
+        color: black;
+      }
+    .endTextOne{
+      border: 1px hidden;
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .endTextOne span{
+        color: black;
+      }
+      .endTextTwo{
+      border: 1px hidden;
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .endTextTwo span{
+        color: black;
+      }
+      .endTextThree{
+      border: 1px hidden;
+      width: 100%;
+      height: 100px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+      .endTextThree span{
+        color: black;
+      }
+}
